@@ -1,6 +1,5 @@
 FROM openjdk:8
 
-LABEL maintainer="Ryoma Fujiwara"
 
 RUN apt-get -y update
 RUN apt-get -y install apt-transport-https
