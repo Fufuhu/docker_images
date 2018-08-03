@@ -1,5 +1,7 @@
 FROM openjdk:8
 
+LABEL maintainer="Ryoma Fujiwara"
+
 RUN apt-get -y update
 RUN apt-get -y install apt-transport-https
 RUN echo "deb https://dl.bintray.com/rundeck/rundeck-deb /" | tee -a /etc/apt/sources.list
